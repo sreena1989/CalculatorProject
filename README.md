@@ -8,7 +8,7 @@ This project contains two Unity Scenes:
 - **AndroidCalculatorScene** (for Android phones)
 
 ## APK Builds
-You can find the final APKs in the `FinalBuilds/` folder.
+You can find the final APKs in the FinalBuilds/ folder.
 
 - CalculatorVR.apk — Tested with Unity XR Device Simulator
 - CalculatorMobile.apk — Touch input supported
@@ -21,7 +21,16 @@ You can find the final APKs in the `FinalBuilds/` folder.
 
 ## Build Process
 - For Android
-Disable XR setup on initialise option
+Under XR PlugIn Management Tool (Project Setting)
+Disable  initialise  XR on startup option for both desktop and android
+Disable OpenXR
+Select AndroidCalculatorScene in build setting and deactivate the other one
+
+-For Meta Quest
+Under XR PlugIn Management Tool (Project Setting)
+Enable  initialise  XR on startup option for both desktop and android
+Enable OpenXR
+Select XRCalculatorScene in build setting and deactivate the other one
 
 
 Please contact me if you encounter any installation issues.
