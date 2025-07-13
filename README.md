@@ -21,6 +21,7 @@ You can find the final APKs in the `FinalBuilds/` folder.
 
 ## Build Process
 - For Android
-Disable 
+Disable XR setup on initialise option
+
 
 Please contact me if you encounter any installation issues.
