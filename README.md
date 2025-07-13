@@ -20,14 +20,12 @@ You can find the final APKs in the FinalBuilds/ folder.
 - Unity New Input System  
 
 ## Build Process
-- For Android
- Under XR PlugIn Management Tool (Project Setting)
+For Android Under XR PlugIn Management Tool (Project Setting)
 - Disable  initialise  XR on startup option for both desktop and android
 - Disable OpenXR
 - Select AndroidCalculatorScene in build setting and deactivate the other one
 
--For Meta Quest
-Under XR PlugIn Management Tool (Project Setting)
+For Meta Quest Under XR PlugIn Management Tool (Project Setting)
 - Enable  initialise  XR on startup option for both desktop and android
 - Enable OpenXR
 - Select XRCalculatorScene in build setting and deactivate the other one
